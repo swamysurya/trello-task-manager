@@ -5,7 +5,9 @@ import path from "path"; // Import 'path' using ESM
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // root: path.resolve(__dirname, "src"), // Use ESM 'path' import
+  /* This part of the config tells Vite where to look for 
+  our project’s JavaScript and how the development server should
+  behave (pulling from the src folder with hot reload). */
   resolve: {
     alias: {
       "~bootstrap": path.resolve(__dirname, "node_modules/bootstrap"), // Alias for Bootstrap

@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 // import all components
-import LoginForm from "./components/LoginForm.jsx";
-import TaskManager from "./components/TaskManager.jsx";
+import LoginForm from "./Pages/LoginForm.jsx";
+import TaskManager from "./Pages/TaskManager.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 
 const App = () => {
