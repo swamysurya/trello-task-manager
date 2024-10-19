@@ -8,7 +8,7 @@ const ProtectedRoute = ({ children }) => {
     return <Navigate to="/login" replace />;
   }
 
-  // If the token is present, render the children components
+  // If the token is present, render the children componentss
   return children;
 };
 
